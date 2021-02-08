@@ -1,8 +1,8 @@
 # Frais
-***
+
 Determine the freshness of your produce using machine learning with this green-thumbed mobile app.
 ## MVP
-***
+
 At the minimum, this app will contain:
 1)  A camera page:
     * Allows users to either upload a photo 
@@ -14,12 +14,12 @@ At the minimum, this app will contain:
 3)  A saved page
     * Will show all of the produce saved by the user
 ## Stretch Goals
-***
+
 - Create user accounts
 - Allow users to save "a fridge" with other people in their home, meaning that multiple users will be able to add and see the same pieces of produce as the people they share  a fridge with
 - Enable popup notifications providing updates on a desired piece of produce
 ## Tech Stack Resources
-***
+
  * IDE : [Android Studio](https://developer.android.com/studio)
     - You can really use any text editor you prefer (VSCode, etc) but I really like Android Studio, I've used it for many projects and find it very reliable especially when for making cross compatible mobile apps    
 * Machine learning API: 
