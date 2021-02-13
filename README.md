@@ -18,6 +18,7 @@ At the minimum, this app will contain:
 - Create user accounts
 - Allow users to save "a fridge" with other people in their home, meaning that multiple users will be able to add and see the same pieces of produce as the people they share  a fridge with
 - Enable popup notifications providing updates on a desired piece of produce
+- Grocery store
 ## Tech Stack Resources
 
  * IDE : [Android Studio](https://developer.android.com/studio)
