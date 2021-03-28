@@ -18,7 +18,7 @@ At the minimum, this app will contain:
 - Create user accounts
 - Allow users to save "a fridge" with other people in their home, meaning that multiple users will be able to add and see the same pieces of produce as the people they share  a fridge with
 - Enable popup notifications providing updates on a desired piece of produce
-- Grocery store
+- Grocery store feature: allow users to know the freshness of produce at a grocery store, takes a photo of a group of produce, identifies an estimate of the unripe, ripe and rotten produce, highlights each group
 ## Tech Stack Resources
 
  * IDE : [Android Studio](https://developer.android.com/studio)
