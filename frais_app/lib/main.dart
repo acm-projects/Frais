@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
     routes: <String, WidgetBuilder>{
 
       '/': (BuildContext context) => HomeScreen(),
-      '/details': (context) => DetailScreen(),
+      '/details': (BuildContext context) => DetailScreen(),
       //'/camera':
     },);
   }

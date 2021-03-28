@@ -19,6 +19,17 @@ class HomeScreen extends StatelessWidget {
       ),
       body: new Column(
         children: <Widget>[
+          FlatButton(
+            child: Text('View Details'),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) {
+                  return DetailScreen();
+                }),
+              );
+            },
+          ),
           Center(
             child: Container(
                 margin: const EdgeInsets.all(10.0),
