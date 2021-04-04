@@ -1,5 +1,9 @@
+import 'dart:ui';
+import 'dart:math';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'alert-bar.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -45,7 +49,8 @@ class HomeScreen extends StatelessWidget {
                     )
                   ],
                   color: Color(0xff7AC313),
-                )
+                ),
+                // TODO: child: AlertBar(),
             ),
           ),
           Center(
@@ -54,7 +59,7 @@ class HomeScreen extends StatelessWidget {
                     Container(
                       margin: const EdgeInsets.all(10.0),
                       width: 400.0,
-                      height: 462.0,
+                      height: 435.0,
                       decoration: BoxDecoration(
                         boxShadow: [
                           BoxShadow(
@@ -76,47 +81,47 @@ class HomeScreen extends StatelessWidget {
                         children: <Widget>[
                           Container(
                             padding: const EdgeInsets.all(8),
-                            child: const Text("Bananas"),
+                            child: const Text("Bananas", textAlign: TextAlign.center,),
                             color: Color(0xff7AC313),
                           ),
                           Container(
                             padding: const EdgeInsets.all(8),
-                            child: const Text('Oranges'),
+                            child: const Text('Oranges', textAlign: TextAlign.center,),
                             color: Color(0xff7AC313),
                           ),
                           Container(
                             padding: const EdgeInsets.all(8),
-                            child: const Text('Apples'),
+                            child: const Text('Apples', textAlign: TextAlign.center,),
                             color: Color(0xff7AC313),
                           ),
                           Container(
                             padding: const EdgeInsets.all(8),
-                            child: const Text('Lemons'),
+                            child: const Text('Lemons', textAlign: TextAlign.center,),
                             color: Color(0xff7AC313),
                           ),
                           Container(
                             padding: const EdgeInsets.all(8),
-                            child: const Text('Peaches'),
+                            child: const Text('Peaches', textAlign: TextAlign.center,),
                             color: Color(0xff7AC313),
                           ),
                           Container(
                             padding: const EdgeInsets.all(8),
-                            child: const Text('Strawberries'),
+                            child: const Text('Strawberries', textAlign: TextAlign.center,),
                             color: Color(0xff7AC313),
                           ),
                           Container(
                             padding: const EdgeInsets.all(8),
-                            child: const Text("Grapes"),
+                            child: const Text("Grapes", textAlign: TextAlign.center,),
                             color: Color(0xff7AC313),
                           ),
                           Container(
                             padding: const EdgeInsets.all(8),
-                            child: const Text('Cherries'),
+                            child: const Text('Cherries', textAlign: TextAlign.center,),
                             color: Color(0xff7AC313),
                           ),
                           Container(
                             padding: const EdgeInsets.all(8),
-                            child: const Text('Avocado'),
+                            child: const Text('Avocado', textAlign: TextAlign.center,),
                             color: Color(0xff7AC313),
                           ),
                         ]
@@ -127,19 +132,41 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
-class DetailScreen extends StatelessWidget {
+
+// Dummy Class
+class DetailScreen extends StatefulWidget {
+
+  DetailScreen({Key key, this.title}):super(key: key);
+  final String title;
+
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(),
-      body: Center(
-        child: FlatButton(
-          child: Text('Pop!'),
-          onPressed: () {
-            Navigator.pop(context);
-          },
-        ),
-      ),
-    );
-  }
+  _DetailScreenState createState() => _DetailScreenState();
 }
+
+class _DetailScreenState extends State<StatefulWidget> {
+  int _counter = 0;
+
+  void _incrementCounter() {
+    DatabaseReference _testRef = FirebaseDatabase.instance.reference().child("test");
+    _testRef.set("Hello world ${Random().nextInt(100)}");
+
+    setState(() {
+      _counter++;
+    });}
+
+    Widget build(BuildContext context) {
+      return Scaffold(
+        appBar: AppBar(),
+        body: Center(
+          child: FlatButton(
+            child: Text('Pop!'),
+            onPressed: () {
+              _incrementCounter();
+              Navigator.pop(context);
+            },
+          ),
+        ),
+      );
+    }
+}
+
