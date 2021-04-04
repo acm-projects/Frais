@@ -3,7 +3,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:flutter_app/fridge.dart';
 
 class CameraScreen extends StatefulWidget {
   @override
@@ -113,11 +112,11 @@ class _CameraScreenState extends State<CameraScreen> {
               color: Colors.white,
               size: 24,
             ),
-            label: Text(
-               '${lensDirection.toString().substring(lensDirection.toString().indexOf('.') + 1).toUpperCase()}',
-               style:
-               TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
-             )
+            // label: Text(
+            //   '${lensDirection.toString().substring(lensDirection.toString().indexOf('.') + 1).toUpperCase()}',
+            //   style:
+            //   TextStyle(color: Colors.white, fontWeight: FontWeight.w500),
+            // )
         ),
       ),
     );
@@ -198,30 +197,6 @@ class _CameraScreenState extends State<CameraScreen> {
                   cameraToggle(),
                 ],
               ),
-            ),
-            Align(
-                alignment: Alignment.bottomCenter,
-                child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      FloatingActionButton(
-                        child: Icon(
-                          Icons.image,
-                          color: Colors.white,
-                          size: 30.0,
-                        ),
-                        backgroundColor: Colors.transparent,
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) {
-                              return FridgeScreen();
-                            }),
-                          );
-                        },
-                      ),
-                    ]
-                )
             )
           ],
         ),
