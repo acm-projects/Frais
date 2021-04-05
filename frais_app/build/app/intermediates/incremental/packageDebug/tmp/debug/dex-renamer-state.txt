@@ -1,0 +1,4 @@
+#Sun Apr 04 14:00:57 CDT 2021
+base.0=/home/justin/development/Frais/frais_app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

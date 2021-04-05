@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "542773518921",
+    "firebase_url": "https://frais-c23ac-default-rtdb.firebaseio.com",
+    "project_id": "frais-c23ac",
+    "storage_bucket": "frais-c23ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542773518921:android:a73d59699b7f5ca0741598",
+        "android_client_info": {
+          "package_name": "com.example.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "542773518921-7s7ttcd89bfd73tib4ocfem2ut3abhim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhElz-oi0YHVNf-Z0X5MpIG0XRplVJBkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "542773518921-7s7ttcd89bfd73tib4ocfem2ut3abhim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

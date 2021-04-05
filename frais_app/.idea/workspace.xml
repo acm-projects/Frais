@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="warn" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dddf2cbe-e3b4-4028-943b-ce65c48eec6f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/apple-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/asparagus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/aubergine.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/avocado.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/banana.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/beans.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/blueberries.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/broccoli.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/cabbage.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/carrot.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/cauliflower.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/cherries.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/chili.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/chives.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/coconut.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/corn.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/cucumber.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/fig.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/grapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/lemon-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/lime.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/mushroom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/mushrooms.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/olives.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/onion-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/orange.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/peach.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/pear.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/peas.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/pepper.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/pineapple.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/pomegranate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/potatoes-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/pumpkin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/radish.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/raspberry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/salad.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/strawberry.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/tomato.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/Vector Pack/Fruit Vectors/watermelon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Vector Icons/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/fridge.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1qEoHAJUT8ZT7sU3uCrSJ9M540N" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dddf2cbe-e3b4-4028-943b-ce65c48eec6f" name="Default Changelist" comment="" />
+      <created>1616654019377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616654019377</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1321" y="495" width="958" height="528" key="#PSD" timestamp="1617562560758">
+      <screen x="0" y="38" width="3440" height="1402" />
+    </state>
+    <state x="1321" y="495" width="958" height="528" key="#PSD/0.38.3440.1402/567.1440.1920.1200@0.38.3440.1402" timestamp="1617562560758" />
+    <state x="118" y="89" width="1833" height="606" key="AVDManager" timestamp="1617556295985">
+      <screen x="0" y="38" width="3440" height="1402" />
+    </state>
+    <state x="118" y="52" width="1833" height="622" key="AVDManager/0.0.3440.1395/643.1569.1920.1200@0.0.3440.1395" timestamp="1616960483178" />
+    <state x="118" y="52" width="1833" height="622" key="AVDManager/0.0.3440.1440/643.1569.1920.1200@0.0.3440.1440" timestamp="1616962854024" />
+    <state x="118" y="100" width="1833" height="1195" key="AVDManager/0.0.3440.2769@0.0.3440.2769" timestamp="1616910428349" />
+    <state x="118" y="89" width="1833" height="606" key="AVDManager/0.38.3440.1402/567.1440.1920.1200@0.38.3440.1402" timestamp="1617556295985" />
+    <state x="118" y="89" width="1833" height="606" key="AVDManager/0.38.3440.1402/817.1525.1920.1200@0.38.3440.1402" timestamp="1617068330676" />
+    <state x="809" y="459" key="FileChooserDialogImpl" timestamp="1616997224347">
+      <screen x="0" y="38" width="3440" height="1402" />
+    </state>
+    <state x="809" y="459" key="FileChooserDialogImpl/0.38.3440.1402/730.1533.1920.1200@0.38.3440.1402" timestamp="1616997224347" />
+    <state width="1526" height="263" key="GridCell.Tab.0.bottom" timestamp="1617564542207">
+      <screen x="0" y="38" width="3440" height="1402" />
+    </state>
+    <state width="1987" height="391" key="GridCell.Tab.0.bottom/0.0.3440.2769@0.0.3440.2769" timestamp="1616911709605" />
+    <state width="1526" height="263" key="GridCell.Tab.0.bottom/0.38.3440.1402/567.1440.1920.1200@0.38.3440.1402" timestamp="1617564542207" />
+    <state width="1526" height="263" key="GridCell.Tab.0.center" timestamp="1617564542207">
+      <screen x="0" y="38" width="3440" height="1402" />
+    </state>
+    <state width="1987" height="391" key="GridCell.Tab.0.center/0.0.3440.2769@0.0.3440.2769" timestamp="1616911709605" />
+    <state width="1526" height="263" key="GridCell.Tab.0.center/0.38.3440.1402/567.1440.1920.1200@0.38.3440.1402" timestamp="1617564542207" />
+    <state width="1526" height="263" key="GridCell.Tab.0.left" timestamp="1617564542207">
+      <screen x="0" y="38" width="3440" height="1402" />
+    </state>
+    <state width="1987" height="391" key="GridCell.Tab.0.left/0.0.3440.2769@0.0.3440.2769" timestamp="1616911709604" />
+    <state width="1526" height="263" key="GridCell.Tab.0.left/0.38.3440.1402/567.1440.1920.1200@0.38.3440.1402" timestamp="1617564542207" />
+    <state width="1526" height="263" key="GridCell.Tab.0.right" timestamp="1617564542207">
+      <screen x="0" y="38" width="3440" height="1402" />
+    </state>
+    <state width="1987" height="391" key="GridCell.Tab.0.right/0.0.3440.2769@0.0.3440.2769" timestamp="1616911709605" />
+    <state width="1526" height="263" key="GridCell.Tab.0.right/0.38.3440.1402/567.1440.1920.1200@0.38.3440.1402" timestamp="1617564542207" />
+    <state x="522" y="336" key="SettingsEditor" timestamp="1617567178808">
+      <screen x="0" y="38" width="3440" height="1402" />
+    </state>
+    <state x="522" y="336" key="SettingsEditor/0.38.3440.1402/567.1440.1920.1200@0.38.3440.1402" timestamp="1617567178808" />
+    <state x="522" y="336" key="SettingsEditor/0.38.3440.1402/730.1533.1920.1200@0.38.3440.1402" timestamp="1616997306579" />
+    <state x="1463" y="435" width="672" height="678" key="search.everywhere.popup" timestamp="1617565087689">
+      <screen x="0" y="38" width="3440" height="1402" />
+    </state>
+    <state x="1463" y="435" width="672" height="678" key="search.everywhere.popup/0.38.3440.1402/567.1440.1920.1200@0.38.3440.1402" timestamp="1617565087689" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/alert-bar.dart</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
