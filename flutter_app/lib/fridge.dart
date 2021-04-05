@@ -4,6 +4,15 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'alert-bar.dart';
+import 'package:firebase_database/firebase_database.dart';
+import 'package:flutter_app/screens/preview.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:camera/camera.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:flutter_app/fridge.dart';
+
+import 'dart:math';
 
 
 class FridgeScreen extends StatelessWidget {
@@ -19,6 +28,7 @@ class FridgeScreen extends StatelessWidget {
               ),
             ]
         ),
+        automaticallyImplyLeading: false,
         backgroundColor: Color(0xfff7edf0),
         elevation: 0.0,
       ),
@@ -49,7 +59,7 @@ class FridgeScreen extends StatelessWidget {
                     Container(
                       margin: const EdgeInsets.all(10.0),
                       width: 400.0,
-                      height: 400.0,
+                      height: 420.0,
                       decoration: BoxDecoration(
                         boxShadow: [
                           BoxShadow(
@@ -114,8 +124,26 @@ class FridgeScreen extends StatelessWidget {
                             child: const Text('Avocado', textAlign: TextAlign.center,),
                             color: Color(0xff7AC313),
                           ),
+
                         ]
                     ),
+                    Positioned(
+                      left: 0,
+                      bottom: 10,
+                      child: MaterialButton(
+                          textColor: Colors.white,
+                          color: Colors.white38,
+                          child: Icon(
+                            Icons.camera_alt,
+                            size: 24,
+                          ),
+                          padding: EdgeInsets.all(16),
+                          shape: CircleBorder(),
+                          onPressed: (){
+                            Navigator.pop(context);
+                          }
+                      ),
+                    )
                   ]
               ))],),
       backgroundColor: Color(0xfff7edf0),

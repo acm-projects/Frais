@@ -224,13 +224,8 @@ class _CameraScreenState extends State<CameraScreen> {
                         ),
                         backgroundColor: Colors.transparent,
                         onPressed: () {
-                          _incrementCounter();
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) {
-                              return FridgeScreen();
-                            }),
-                          );
+                          _incrementCounter(); //TODO: REMOVE THIS AFTER DB IMPLEMENTED
+                          Navigator.pushNamed(context, '/fridge');
                         },
                       ),
                     ]
