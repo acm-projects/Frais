@@ -29,6 +29,7 @@ dependencies:
   image_picker:
   flutter:
     sdk: flutter
+  tflite:
 
   firebase_core: ^1.0.2
   firebase_database: ^6.1.1
@@ -58,7 +59,9 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
-
+  assets:
+    - assets/from_saved_model.tflite
+    - assets/from_saved_model.txt
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

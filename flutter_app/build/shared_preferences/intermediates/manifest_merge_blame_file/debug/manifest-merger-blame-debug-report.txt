@@ -3,6 +3,6 @@
 3    package="io.flutter.plugins.sharedpreferences" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->/home/justin/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.7+3/android/src/main/AndroidManifest.xml
+5-->C:\Users\cheez\flutter sdk\flutter_windows_2.0.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\shared_preferences-0.5.7+3\android\src\main\AndroidManifest.xml
 6
 7</manifest>

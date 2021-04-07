@@ -3,26 +3,26 @@
 3    package="de.esys.esysfluttershare" >
 4
 5    <uses-sdk android:minSdkVersion="16" />
-5-->/home/justin/.pub-cache/hosted/pub.dartlang.org/esys_flutter_share-1.0.2/android/src/main/AndroidManifest.xml
+5-->C:\Users\cheez\flutter sdk\flutter_windows_2.0.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\esys_flutter_share-1.0.2\android\src\main\AndroidManifest.xml
 6
 7    <application>
-7-->/home/justin/.pub-cache/hosted/pub.dartlang.org/esys_flutter_share-1.0.2/android/src/main/AndroidManifest.xml:4:5-14:19
+7-->C:\Users\cheez\flutter sdk\flutter_windows_2.0.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\esys_flutter_share-1.0.2\android\src\main\AndroidManifest.xml:4:5-14:19
 8        <provider
-8-->/home/justin/.pub-cache/hosted/pub.dartlang.org/esys_flutter_share-1.0.2/android/src/main/AndroidManifest.xml:5:9-13:20
+8-->C:\Users\cheez\flutter sdk\flutter_windows_2.0.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\esys_flutter_share-1.0.2\android\src\main\AndroidManifest.xml:5:9-13:20
 9            android:name="de.esys.esysfluttershare.EsysFlutterShareFileProvider"
-9-->/home/justin/.pub-cache/hosted/pub.dartlang.org/esys_flutter_share-1.0.2/android/src/main/AndroidManifest.xml:6:13-81
+9-->C:\Users\cheez\flutter sdk\flutter_windows_2.0.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\esys_flutter_share-1.0.2\android\src\main\AndroidManifest.xml:6:13-81
 10            android:authorities="dollar_openBracket_applicationId_closeBracket.fileprovider.github.com/orgs/esysberlin/esys-flutter-share"
-10-->/home/justin/.pub-cache/hosted/pub.dartlang.org/esys_flutter_share-1.0.2/android/src/main/AndroidManifest.xml:7:13-110
+10-->C:\Users\cheez\flutter sdk\flutter_windows_2.0.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\esys_flutter_share-1.0.2\android\src\main\AndroidManifest.xml:7:13-110
 11            android:exported="false"
-11-->/home/justin/.pub-cache/hosted/pub.dartlang.org/esys_flutter_share-1.0.2/android/src/main/AndroidManifest.xml:8:13-37
+11-->C:\Users\cheez\flutter sdk\flutter_windows_2.0.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\esys_flutter_share-1.0.2\android\src\main\AndroidManifest.xml:8:13-37
 12            android:grantUriPermissions="true" >
-12-->/home/justin/.pub-cache/hosted/pub.dartlang.org/esys_flutter_share-1.0.2/android/src/main/AndroidManifest.xml:9:13-47
+12-->C:\Users\cheez\flutter sdk\flutter_windows_2.0.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\esys_flutter_share-1.0.2\android\src\main\AndroidManifest.xml:9:13-47
 13            <meta-data
-13-->/home/justin/.pub-cache/hosted/pub.dartlang.org/esys_flutter_share-1.0.2/android/src/main/AndroidManifest.xml:10:13-12:72
+13-->C:\Users\cheez\flutter sdk\flutter_windows_2.0.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\esys_flutter_share-1.0.2\android\src\main\AndroidManifest.xml:10:13-12:72
 14                android:name="android.support.FILE_PROVIDER_PATHS"
-14-->/home/justin/.pub-cache/hosted/pub.dartlang.org/esys_flutter_share-1.0.2/android/src/main/AndroidManifest.xml:11:17-67
+14-->C:\Users\cheez\flutter sdk\flutter_windows_2.0.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\esys_flutter_share-1.0.2\android\src\main\AndroidManifest.xml:11:17-67
 15                android:resource="@xml/esys_flutter_share_filepaths" />
-15-->/home/justin/.pub-cache/hosted/pub.dartlang.org/esys_flutter_share-1.0.2/android/src/main/AndroidManifest.xml:12:17-69
+15-->C:\Users\cheez\flutter sdk\flutter_windows_2.0.4-stable\flutter\.pub-cache\hosted\pub.dartlang.org\esys_flutter_share-1.0.2\android\src\main\AndroidManifest.xml:12:17-69
 16        </provider>
 17    </application>
 18

@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "/home/justin/development/Frais/flutter_app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml",
+            "outputFile": "C:\\Users\\cheez\\Frais\\Frais\\flutter_app\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
             "map": [
                 {
-                    "source": "/home/justin/.gradle/caches/transforms-2/files-2.1/c1170fed6f4f7a1849b73ae72729595b/play-services-base-17.1.0/res/values-vi/values.xml",
+                    "source": "C:\\Users\\cheez\\.gradle\\caches\\transforms-2\\files-2.1\\749c4c5daebd198db5226d6916b14d71\\jetified-play-services-basement-17.1.0\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "194",
+                        "endOffsets": "441"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1285",
+                        "endColumns": "194",
+                        "endOffsets": "1475"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\cheez\\.gradle\\caches\\transforms-2\\files-2.1\\c1170fed6f4f7a1849b73ae72729595b\\play-services-base-17.1.0\\res\\values-vi\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/justin/.gradle/caches/transforms-2/files-2.1/d8ef44c809d0f0b330f00fc1e7f96546/core-1.1.0/res/values-vi/values-vi.xml",
+                    "source": "C:\\Users\\cheez\\.gradle\\caches\\transforms-2\\files-2.1\\d8ef44c809d0f0b330f00fc1e7f96546\\core-1.1.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -35,23 +52,6 @@
                         "startOffsets": "2852",
                         "endColumns": "100",
                         "endOffsets": "2948"
-                    }
-                },
-                {
-                    "source": "/home/justin/.gradle/caches/transforms-2/files-2.1/f95ce076c2d275ab33e644c853c2ecfd/jetified-play-services-basement-17.1.0/res/values-vi/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "194",
-                        "endOffsets": "441"
-                    },
-                    "to": {
-                        "startLines": "10",
-                        "startColumns": "4",
-                        "startOffsets": "1285",
-                        "endColumns": "194",
-                        "endOffsets": "1475"
                     }
                 }
             ]

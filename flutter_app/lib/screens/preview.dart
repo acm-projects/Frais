@@ -5,6 +5,8 @@ import 'package:esys_flutter_share/esys_flutter_share.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import 'package:flutter_app/screens/result.dart';
+
 class PreviewScreen extends StatefulWidget {
   final String imgPath;
   final String fileName;
@@ -38,7 +40,9 @@ class _PreviewScreenState extends State<PreviewScreen> {
                   child: Center(
                     child: IconButton(
                       icon: Icon(Icons.share,color: Colors.white,),
-                      onPressed: (){
+                      onPressed: () async {
+                        // THIS IS WHERE ml model is called
+                        await recognizeImage(widget.imgPath);
                         getBytes().then((bytes) {
                           print('here now');
                           print(widget.imgPath);
@@ -54,6 +58,18 @@ class _PreviewScreenState extends State<PreviewScreen> {
           ),
         )
     );
+  }
+
+  Future recognizeImage(String path) async {
+    var res = await loadModel();
+    //print(res);
+
+    var predictions = await runModel(path);
+
+    print(predictions);
+
+
+
   }
 
   Future getBytes () async {
