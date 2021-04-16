@@ -3,7 +3,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'package:path_provider/path_provider.dart';
-import 'package:flutter_app/fridge.dart';
+import 'dart:io';
+import 'package:image_picker/image_picker.dart';
+
 
 class CameraScreen extends StatefulWidget {
   @override
@@ -11,12 +13,26 @@ class CameraScreen extends StatefulWidget {
 }
 
 class _CameraScreenState extends State<CameraScreen> {
+
+  File _image;
+  final picker = ImagePicker();
+
+  Future getImageFromGallery() async{
+    final pickedFile = await picker.getImage(source: ImageSource.gallery);
+
+    setState((){
+      if(pickedFile != null){
+        _image = File(pickedFile.path);
+      } else{
+        print('No image selected.');
+      }
+    });
+  }
+
   CameraController cameraController;
   List cameras;
   int selectedCameraIndex;
   String imgPath;
-
-
 
   Future initCamera(CameraDescription cameraDescription) async {
     if (cameraController != null) {
@@ -76,10 +92,11 @@ class _CameraScreenState extends State<CameraScreen> {
               width: 90,
               height:90.0,
             child: FloatingActionButton(
+              heroTag: "btn3",
               child: Icon(
                 Icons.brightness_1_outlined,
                 color: Colors.white,
-                size: 90.0,
+                size: 80.0,
               ),
               backgroundColor: Colors.black.withOpacity(0.05),
               onPressed: () {
@@ -163,8 +180,9 @@ class _CameraScreenState extends State<CameraScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final Size size = MediaQuery.of(context).size;
     return Scaffold(
-      backgroundColor: Colors.green,
+      backgroundColor: Colors.transparent,
       body: Container(
         child: Stack(
           children: <Widget>[
@@ -173,7 +191,7 @@ class _CameraScreenState extends State<CameraScreen> {
               child: cameraPreview(),
             ),
             Align(
-               alignment: Alignment(-1,.85),
+               alignment: Alignment(-1,.945),
                //child: Container(
               //   alignment: Alignment.center,
               //   height: 100,
@@ -190,39 +208,81 @@ class _CameraScreenState extends State<CameraScreen> {
                 ),
               ),
             //)
-            Align(
-              alignment: Alignment.bottomCenter,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: <Widget>[
-                  cameraToggle(),
-                ],
-              ),
-            ),
+            // Align(
+            //   alignment: Alignment.bottomCenter,
+            //   child: Row(
+            //     mainAxisAlignment: MainAxisAlignment.center,
+            //     children: <Widget>[
+            //       cameraToggle(),
+            //     ],
+            //   ),
+            // ),
             Align(
                 alignment: Alignment.bottomCenter,
-                child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: <Widget>[
-                      FloatingActionButton(
-                        child: Icon(
-                          Icons.image,
-                          color: Colors.white,
-                          size: 30.0,
-                        ),
-                        backgroundColor: Colors.transparent,
-                        onPressed: () {
-                          Navigator.push(
-                            context,
-                            MaterialPageRoute(builder: (context) {
-                              return FridgeScreen();
-                            }),
-                          );
-                        },
+                child: Container(
+                  width: size.width,
+                  height: 80,
+                  child: Stack(
+                    children: [
+                      CustomPaint(
+                        size: Size(size.width, 80),
+                        painter: BNBCustomPainter(),
                       ),
-                    ]
+                      // Center(
+                      //   heightFactor: .6,
+                      //   child: FloatingActionButton(onPressed: (){},
+                      //   backgroundColor: Colors.orange,
+                      //     child: Icon(Icons.shopping_basket),elevation:.1,),
+                      // ),
+                      Container(
+                        width: size.width,
+                        height: 80,
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          children: [
+                            FloatingActionButton(
+                              backgroundColor: Colors.green,
+                                heroTag: "btn1",
+                                child:Icon(CupertinoIcons.bag_fill),
+                                onPressed:(){
+                                  Navigator.pushNamed(context, '/second');
+                                }
+                                          ),
+                            Container(width: size.width*.15,),
+                            FloatingActionButton(
+                              backgroundColor: Colors.green,
+                                heroTag: "btn4",
+                                child:Icon(Icons.image),
+                                onPressed:getImageFromGallery)
+                          ],
+                        )
+                      )
+                    ],
                 )
+
+
+
+                // Row(
+                //     mainAxisAlignment: MainAxisAlignment.center,
+                //     children: <Widget>[
+                //       FloatingActionButton(
+                //         child: Icon(
+                //           Icons.image,
+                //           color: Colors.white,
+                //           size: 30.0,
+                //         ),
+                //         backgroundColor: Colors.transparent,
+                //         onPressed: () => pushNewScreenWithRouteSettings(
+                //           context,
+                //           screen: FridgeScreen(),
+                //           withNavBar: true,
+                //           pageTransitionAnimation: PageTransitionAnimation.cupertino,
+                //         )
+                //       ),
+                //     ]
+                // )
             )
+            ),
           ],
         ),
       ),
@@ -252,4 +312,29 @@ class _CameraScreenState extends State<CameraScreen> {
   showCameraException(e) {
     String errorText = 'Error ${e.code} \nError message: ${e.description}';
   }
+}
+
+class BNBCustomPainter extends CustomPainter{
+  @override
+  void paint(Canvas canvas, Size size) {
+    Paint paint = Paint()..color = Colors.white..style = PaintingStyle.fill;
+    Path path = Path()..moveTo(0,20);
+    path.quadraticBezierTo(size.width*.20, 0, size.width*.35, 0);
+    path.quadraticBezierTo(size.width*.40, 0, size.width*.40, 20);
+    path.arcToPoint(Offset(size.width*0.60,20),
+      radius: Radius.circular(10.0),clockwise: false);
+    path.quadraticBezierTo(size.width*.60, 0, size.width*.65, 0);
+    path.quadraticBezierTo(size.width*.80, 0, size.width, 20);
+    path.lineTo(size.width, size.height);
+    path.lineTo(0, size.height);
+    path.close();
+    canvas.drawShadow(path,Colors.white70,5,true);
+    canvas.drawPath(path,paint);
+  }
+
+  @override
+  bool shouldRepaint(covariant CustomPainter oldDelegate) {
+    return false;
+  }
+  
 }

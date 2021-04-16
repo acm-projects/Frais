@@ -1,6 +1,7 @@
 import 'package:flutter_app/screens/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/fridge.dart';
+import 'package:persistent_bottom_nav_bar/persistent-tab-view.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,11 +19,12 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.deepPurple,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      routes:<String,WidgetBuilder>{
-        '/': (BuildContext context) => CameraScreen(),
-        '/details': (BuildContext context) => DetailScreen(),
-        '/fridge': (BuildContext context) => FridgeScreen(),
-      }
+      home: CameraScreen(),
+      initialRoute: '/',
+      routes: {
+        '/second': (BuildContext context) => FridgeScreen(),
+        '/first': (BuildContext context) => CameraScreen(),
+      },
     );
   }
 }

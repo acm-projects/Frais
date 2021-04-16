@@ -69,9 +69,9 @@
     },
     {
       "name": "file",
-      "rootUri": "file:///Users/shreysaraswat/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/file-6.1.0",
+      "rootUri": "file:///Users/shreysaraswat/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/file-5.2.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.2"
     },
     {
       "name": "flutter",
@@ -126,6 +126,12 @@
       "rootUri": "file:///Users/shreysaraswat/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker_platform_interface-2.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///Users/shreysaraswat/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.5"
     },
     {
       "name": "js",
@@ -188,10 +194,16 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "platform",
-      "rootUri": "file:///Users/shreysaraswat/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/platform-3.0.0",
+      "name": "persistent_bottom_nav_bar",
+      "rootUri": "file:///Users/shreysaraswat/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/persistent_bottom_nav_bar-4.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "platform",
+      "rootUri": "file:///Users/shreysaraswat/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/platform-2.2.1",
+      "packageUri": "lib/",
+      "languageVersion": "1.24"
     },
     {
       "name": "plugin_platform_interface",
@@ -201,19 +213,13 @@
     },
     {
       "name": "process",
-      "rootUri": "file:///Users/shreysaraswat/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/process-4.2.1",
+      "rootUri": "file:///Users/shreysaraswat/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/process-3.0.13",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.0"
     },
     {
       "name": "shared_preferences",
-      "rootUri": "file:///Users/shreysaraswat/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.12+4",
-      "packageUri": "lib/",
-      "languageVersion": "2.1"
-    },
-    {
-      "name": "shared_preferences_linux",
-      "rootUri": "file:///Users/shreysaraswat/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_linux-0.0.2+4",
+      "rootUri": "file:///Users/shreysaraswat/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.7+3",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
@@ -232,12 +238,6 @@
     {
       "name": "shared_preferences_web",
       "rootUri": "file:///Users/shreysaraswat/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_web-0.1.2+7",
-      "packageUri": "lib/",
-      "languageVersion": "2.1"
-    },
-    {
-      "name": "shared_preferences_windows",
-      "rootUri": "file:///Users/shreysaraswat/Desktop/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_windows-0.0.2+3",
       "packageUri": "lib/",
       "languageVersion": "2.1"
     },
@@ -314,7 +314,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-03-31T03:06:28.890845Z",
+  "generated": "2021-04-16T04:27:15.474677Z",
   "generator": "pub",
   "generatorVersion": "2.12.1"
 }
