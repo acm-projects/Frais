@@ -84,7 +84,11 @@ packages:
       name: file
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
     version: "5.2.1"
+=======
+    version: "6.1.0"
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
   flutter:
     dependency: "direct main"
     description: flutter
@@ -142,6 +146,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.0"
+<<<<<<< HEAD
   intl:
     dependency: transitive
     description:
@@ -149,6 +154,8 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.16.1"
+=======
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
   js:
     dependency: transitive
     description:
@@ -219,6 +226,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.11.0"
+<<<<<<< HEAD
   persistent_bottom_nav_bar:
     dependency: "direct main"
     description:
@@ -226,13 +234,19 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.2"
+=======
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
   platform:
     dependency: transitive
     description:
       name: platform
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
     version: "2.2.1"
+=======
+    version: "3.0.0"
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
   plugin_platform_interface:
     dependency: transitive
     description:
@@ -246,14 +260,29 @@ packages:
       name: process
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
     version: "3.0.13"
+=======
+    version: "4.2.1"
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
   shared_preferences:
     dependency: "direct main"
     description:
       name: shared_preferences
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< HEAD
     version: "0.5.7+3"
+=======
+    version: "0.5.12+4"
+  shared_preferences_linux:
+    dependency: transitive
+    description:
+      name: shared_preferences_linux
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.2+4"
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
   shared_preferences_macos:
     dependency: transitive
     description:
@@ -275,6 +304,16 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.1.2+7"
+<<<<<<< HEAD
+=======
+  shared_preferences_windows:
+    dependency: transitive
+    description:
+      name: shared_preferences_windows
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.0.2+3"
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
   sky_engine:
     dependency: transitive
     description: flutter
@@ -322,6 +361,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.2.19"
+<<<<<<< HEAD
   tflite:
     dependency: "direct main"
     description:
@@ -329,6 +369,8 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.2"
+=======
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
   typed_data:
     dependency: transitive
     description:

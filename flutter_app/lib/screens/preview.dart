@@ -1,11 +1,17 @@
 import 'dart:io';
 import 'dart:typed_data';
+<<<<<<< HEAD
 import 'dart:async';
+=======
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
 
 import 'package:esys_flutter_share/esys_flutter_share.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:flutter_app/model.dart';
+=======
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
 
 class PreviewScreen extends StatefulWidget {
   final String imgPath;
@@ -17,6 +23,7 @@ class PreviewScreen extends StatefulWidget {
 }
 
 class _PreviewScreenState extends State<PreviewScreen> {
+<<<<<<< HEAD
   List _prediction;
 
 
@@ -165,6 +172,12 @@ class _PreviewScreenState extends State<PreviewScreen> {
         appBar: AppBar(
           backgroundColor: Color(0xff7AC313),
           //toolbarOpacity: 0,
+=======
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
           automaticallyImplyLeading: true,
         ),
         body: Container(
@@ -201,6 +214,7 @@ class _PreviewScreenState extends State<PreviewScreen> {
         )
     );
   }
+<<<<<<< HEAD
 */
   Future recognizeImage(String path) async {
     var res = await loadModel();
@@ -216,6 +230,9 @@ class _PreviewScreenState extends State<PreviewScreen> {
       _prediction = prediction;
     });
   }
+=======
+
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
   Future getBytes () async {
     Uint8List bytes = File(widget.imgPath).readAsBytesSync() as Uint8List;
 //    print(ByteData.view(buffer))

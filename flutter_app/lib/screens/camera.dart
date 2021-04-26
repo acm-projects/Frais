@@ -3,9 +3,13 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'package:path_provider/path_provider.dart';
+<<<<<<< HEAD
 import 'dart:io';
 import 'package:image_picker/image_picker.dart';
 
+=======
+import 'package:flutter_app/fridge.dart';
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
 
 class CameraScreen extends StatefulWidget {
   @override
@@ -13,6 +17,7 @@ class CameraScreen extends StatefulWidget {
 }
 
 class _CameraScreenState extends State<CameraScreen> {
+<<<<<<< HEAD
 
   File _image;
   final picker = ImagePicker();
@@ -32,11 +37,18 @@ class _CameraScreenState extends State<CameraScreen> {
     Navigator.push(context, MaterialPageRoute(builder: (context) =>PreviewScreen(imgPath: pickedFile.path,fileName: "name.png",)));
   }
 
+=======
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
   CameraController cameraController;
   List cameras;
   int selectedCameraIndex;
   String imgPath;
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
   Future initCamera(CameraDescription cameraDescription) async {
     if (cameraController != null) {
       await cameraController.dispose();
@@ -95,11 +107,18 @@ class _CameraScreenState extends State<CameraScreen> {
               width: 90,
               height:90.0,
             child: FloatingActionButton(
+<<<<<<< HEAD
               heroTag: "btn3",
               child: Icon(
                 Icons.brightness_1_outlined,
                 color: Colors.white,
                 size: 80.0,
+=======
+              child: Icon(
+                Icons.brightness_1_outlined,
+                color: Colors.white,
+                size: 90.0,
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
               ),
               backgroundColor: Colors.black.withOpacity(0.05),
               onPressed: () {
@@ -183,9 +202,14 @@ class _CameraScreenState extends State<CameraScreen> {
 
   @override
   Widget build(BuildContext context) {
+<<<<<<< HEAD
     final Size size = MediaQuery.of(context).size;
     return Scaffold(
       backgroundColor: Colors.transparent,
+=======
+    return Scaffold(
+      backgroundColor: Colors.green,
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
       body: Container(
         child: Stack(
           children: <Widget>[
@@ -194,7 +218,11 @@ class _CameraScreenState extends State<CameraScreen> {
               child: cameraPreview(),
             ),
             Align(
+<<<<<<< HEAD
                alignment: Alignment(-1,.945),
+=======
+               alignment: Alignment(-1,.85),
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
                //child: Container(
               //   alignment: Alignment.center,
               //   height: 100,
@@ -211,6 +239,7 @@ class _CameraScreenState extends State<CameraScreen> {
                 ),
               ),
             //)
+<<<<<<< HEAD
             // Align(
             //   alignment: Alignment.bottomCenter,
             //   child: Row(
@@ -286,6 +315,41 @@ class _CameraScreenState extends State<CameraScreen> {
                 // )
             )
             ),
+=======
+            Align(
+              alignment: Alignment.bottomCenter,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  cameraToggle(),
+                ],
+              ),
+            ),
+            Align(
+                alignment: Alignment.bottomCenter,
+                child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      FloatingActionButton(
+                        child: Icon(
+                          Icons.image,
+                          color: Colors.white,
+                          size: 30.0,
+                        ),
+                        backgroundColor: Colors.transparent,
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (context) {
+                              return FridgeScreen();
+                            }),
+                          );
+                        },
+                      ),
+                    ]
+                )
+            )
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
           ],
         ),
       ),
@@ -316,6 +380,7 @@ class _CameraScreenState extends State<CameraScreen> {
     String errorText = 'Error ${e.code} \nError message: ${e.description}';
   }
 }
+<<<<<<< HEAD
 
 class BNBCustomPainter extends CustomPainter{
   @override
@@ -341,3 +406,5 @@ class BNBCustomPainter extends CustomPainter{
   }
   
 }
+=======
+>>>>>>> 7a86c475a69f8c98a27a8fbe0e7dece87b5cd3a6
