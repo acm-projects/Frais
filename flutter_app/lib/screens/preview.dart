@@ -57,6 +57,40 @@ class _PreviewScreenState extends State<PreviewScreen> {
 
     }
 
+    if(_prediction.isEmpty) {
+
+      return Scaffold(
+          appBar: AppBar(
+            backgroundColor: Color(0xff7AC313),
+            automaticallyImplyLeading: true,
+          ),
+          body: Container(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                Expanded(
+                  flex: 2,
+                  child: Image.file(File(widget.imgPath),fit: BoxFit.fitWidth,),
+                ),
+                Card(
+                  color: Color(0xff7ac313),
+                  child: Column(
+                    children: <Widget>[Text(
+                      "This input is invalid!",
+                      style: TextStyle(
+                        fontSize: 25,
+                        color: Colors.white
+                      ),
+                    )]
+                  ),
+                )
+              ],
+            ),
+          )
+      );
+
+    }
+
 
 
 
@@ -74,25 +108,21 @@ class _PreviewScreenState extends State<PreviewScreen> {
                 flex: 2,
                 child: Image.file(File(widget.imgPath),fit: BoxFit.fitWidth,),
               ),
-
               Card(
                 color: Color(0xff7ac313),
-
                 child: Column(
                   children: _prediction != null
                       ? _prediction.map((pre) {
-                    return Text(
-                      "${pre["label"]}",
-                      style: TextStyle(
-                        fontSize: 20
-                        //color: Color(0xff7ac313),
-                        //backgroundColor: Color(0xff7ac313),
-
-
-                      ),
-
-                    );
-                  }).toList()
+                      return ClipRRect(
+                        child: Text(
+                          "${pre["label"]}",
+                          style: TextStyle(
+                            fontSize: 25,
+                            color: Colors.white
+                          ),
+                        )
+                      );
+                    }).toList()
                       : [],
                 ),
               )
@@ -102,106 +132,6 @@ class _PreviewScreenState extends State<PreviewScreen> {
     );
   }
 
-/*
-    return Scaffold(
-
-        appBar: AppBar(
-          backgroundColor: Color(0xff7AC313),
-          automaticallyImplyLeading: true,
-        ),
-        body: Container(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: <Widget>[
-              Expanded(
-                flex: 2,
-                child: Image.file(File(widget.imgPath),fit: BoxFit.cover,),
-              ),
-              Align(
-                alignment: Alignment.bottomCenter,
-                child: Container(
-                  width: double.infinity,
-                  height: 60,
-                  color: Colors.black,
-                  child: Center(
-                    child: Card(
-
-                      child: Column(
-                        children: _prediction != null
-                            ? _prediction.map((pre) {
-                              return Text(
-                                "${pre["label"]}", // \nConfidence: ${pre["confidence"].toStringAsFixed(3)}",
-                                style: TextStyle(
-                              //color: Color(0xff7ac313),
-                              //backgroundColor: Color(0xff7ac313),
-                            ),
-
-                          );
-                        }).toList()
-                            : [],
-
-                      ),
-
-                    ),
-                  ),
-                ),
-              )
-            ],
-          ),
-        )
-    );
-  }
-
- */
-
-
-
-
-
-  /*
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-          backgroundColor: Color(0xff7AC313),
-          //toolbarOpacity: 0,
-          automaticallyImplyLeading: true,
-        ),
-        body: Container(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: <Widget>[
-              Expanded(
-                flex: 2,
-                child: Image.file(File(widget.imgPath),fit: BoxFit.cover,),
-              ),
-              Align(
-                alignment: Alignment.bottomCenter,
-                child: Container(
-                  width: double.infinity,
-                  height: 60,
-                  color: Colors.black,
-                  child: Center(
-                    child: IconButton(
-                      icon: Icon(Icons.share,color: Colors.white,),
-                      onPressed: (){
-                        getBytes().then((bytes) {
-                          print('here now');
-                          print(widget.imgPath);
-                          print(bytes.buffer.asUint8List());
-                          Share.file('Share via', widget.fileName, bytes.buffer.asUint8List(), 'image/path');
-                        });
-                      },
-                    ),
-                  ),
-                ),
-              )
-            ],
-          ),
-        )
-    );
-  }
-*/
   Future recognizeImage(String path) async {
     var res = await loadModel();
     //print(res);
